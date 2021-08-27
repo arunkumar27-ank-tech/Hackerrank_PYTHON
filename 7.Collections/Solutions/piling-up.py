@@ -1,6 +1,6 @@
 for _ in range(int(input())):
-    n,nos =int(input()), list(map(int,input().split()))
-    if (sorted(nos)[-1]==sorted(nos[0])) or (sorted(nos[-1]==[-1])):
+    n,lst =int(input()), list(map(int,input().split()))
+    if (sorted(lst)[-1]==lst[0]) or (sorted(lst)[-1]==lst[-1]):
         print("Yes")
     else:
         print("No")

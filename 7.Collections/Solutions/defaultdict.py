@@ -7,6 +7,7 @@ n, m = map(int,input().split())
 for i in range (n):
     k = input()
     d[k].append(i+1)
+print(d)
 for j in range(m):
     l=input()
     list1.append(l)
